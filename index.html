@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Highend Urology</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="/www/images/favicon-16x16.png">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="css/ilmosys-icon.css">
+    <link rel="stylesheet" href="css/icons/fontawesome/css/style.css">
+    <link rel="stylesheet" href="css/icons/style.css">
+    <link rel="stylesheet" href="css/icons/icon2/style.css">
+    <link rel="stylesheet" href="js/vendors/swipebox/css/swipebox.min.css">
+
+
+    <!-- THEME / PLUGIN CSS -->
+    <link rel="stylesheet" href="js/vendors/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body id="page-top">
+    <video autoplay loop muted playsinline id="background-video">
+        <source src="www/images/video.jpg" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="body" style="">
+        <!-- HEADER -->
+        <header>
+            <nav class="navbar-inverse navbar-lg navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="intro.html" class="navbar-brand brand"><img style="height: 80px;" src="/images/highend_urology_logo.jpg" alt="logo"></a>
+                    </div>
+
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				</button>
+
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <!--<ul class="nav navbar-nav navbar-right navbar-contact">
+                            <li>
+                                <a href="#"><span class="icon-call"></span> 1800 789 123</a>
+                            </li>
+                        </ul> --> 
+                        <ul class="nav navbar-nav navbar-right">
+
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#home">Home</a>
+                            </li>
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#features">About Us</a>
+                            </li>
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#services">Services</a>
+                            </li>
+
+                            <!-- <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#reviews">Reviews</a>
+                            </li> -->
+
+                            <li class="dropdown mm-menu">
+                                <a class="page-scroll" href="#contact-info">Contact</a>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- INTRO -->
+        <div id="home" class="">
+            <!-- <div class="overlay"></div> -->
+            <div class="container" style="margin-top: 100px;"> 
+                <div class="row center-content">
+                    <div class="col-sm-10">
+                        <h2 style="margin-bottom: 30px;">We made your medical<br>treatment easy</h2>
+                        <p>Making medical treatment easy requires a patient-centered approach that integrates technology, efficiency, and personalized care. Telemedicine and online consultations eliminate unnecessary travel, while AI-powered diagnostics enable faster, more accurate results. Simplified appointment booking systems reduce wait times, and one-stop medical centers provide multiple services under one roof for convenience. By embracing innovation and streamlining healthcare processes, medical facilities can ensure stress-free, efficient, and effective treatment for all patients.</p>
+                        <div class="row">
+                            <div class="col-md-10">
+                                <ul class="features-list">
+                                    <li>
+                                        <i class="ilmosys-microscope"></i>
+                                        <h5>Laboratory services</h5>
+                                    </li>
+
+                                    <li>
+                                        <i class="ilmosys-x-ray"></i>
+                                        <h5>Radiology and X-ray facility</h5>
+                                    </li>
+
+                                    <li>
+                                        <i class="ilmosys-ambulance"></i>
+                                        <h5>Ambulance Services</h5>
+                                    </li>
+
+                                    <li>
+                                        <i class="ilmosys-clinic"></i>
+                                        <h5>Ward/ Indoor facility</h5>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <br><br>
+                    <div class="col-sm-5 col-md-7">
+                        <div class="intro-form" id="join-us-form contact-form">
+                            <h4>Book an Appointment</h4>
+                            
+                            <div id="join-us-results"></div>
+                                <!-- Form -->
+                                <div class="form-group">
+                                    <input type="text" name="first_name" id="first_name" class="form-control f-input input-field" placeholder="First Name" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="last_name" id="last_name" class="form-control f-input input-field" placeholder="Last Name" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="email" class="form-control f-input input-field" placeholder="Email" />
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" name="phone" maxlength="15"  class="form-control f-input input-field" placeholder="Phone" />
+                                </div>
+                                <div class="mb-3" style="margin-bottom: 30px;">
+                                    <label for="appointmentMessage" class="form-label"><b>How can we help ?</b></label>
+                                    <textarea class="form-control" id="appointmentMessage" name="message" rows="4" placeholder="Enter here"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-block btn-lg btn-primary" id="submit_btn">Submit</button>
+                            </div>
+                            <div id="sendingMessage" class="statusMessage">
+                                <p><i class="fa fa-spin fa-cog"></i> Sending your message. Please wait...</p>
+                            </div>
+
+                            <div id="successMessage" class="successmessage">
+                                <p><span class="success-ico"></span> Thanks for sending your message! We'll get back to you shortly.</p>
+                            </div>
+                            <div id="failureMessage" class="errormessage">
+                                <p><span class="error-ico"></span> There was a problem sending your message. Please try again.</p>
+                            </div>
+                            <div id="incompleteMessage" class="statusMessage">
+                                <p><i class="fa fa-warning"></i> Please complete all the fields in the form before sending.</p>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- ABOUT -->
+        <div id="features" class="container">
+            <div class="about-inline text-center" style="padding: 0%; padding-top: 50px;">
+                <div class="container">
+                    <p>- ABOUT US -</p>
+                </div>
+            </div>
+
+
+            <!-- INFO CONTENT -->
+            <div class="info-content ">
+                <div class="container d-flex flex-row">
+                    <div class="row center-content d-flex flex-row">
+                        <div class="col-md-8 text-center">
+                            <img src="/images/topurology.jpg" class="pull-right img-responsive" alt="" style="margin-right: 100px;">
+                        </div>
+                        <div class="col-md-4" style="width: 800px; margin-bottom: 0px; padding-top: 60px;">
+                           <p>
+                            At Highend Urology, we are dedicated to providing world-class urological care with a focus on innovation, expertise, and patient-centered treatment. Our team of highly skilled specialists combines years of experience with cutting-edge medical technology to diagnose and treat a wide range of urological conditions.
+
+                            We understand that urological health is essential to overall well-being, and we are committed to delivering compassionate, confidential, and effective care tailored to each patient’s needs. Whether it’s kidney stone treatment, prostate care, minimally invasive procedures, or complex urological surgeries, our goal is to ensure the best possible outcomes with minimal discomfort and quick recovery times.
+
+                            At Highend Urology, we prioritize excellence in medical care by staying at the forefront of advancements in urology. Our state-of-the-art facility is equipped with the latest diagnostic tools and treatment techniques, allowing us to offer precision-driven solutions with a patient-first approach.
+
+                            Your health and comfort are our top priorities. Trust Highend Urology for expert care, cutting-edge treatments, and a commitment to helping you lead a healthier, worry-free life.
+
+
+                           </p>
+                            <div class="space30">
+                                
+                            </div>
+                            <!-- <a href="#" class="btn btn-lg btn-primary">Learn More <i class="icon-arrow-right"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <br> <br><br>
+
+            <!-- INFO CONTENT -->
+            <div class="info-content">
+                <div class="container">
+                    <div class="row center-content align-items-start">
+                        <div class="col-md-4 d-flex flex-row">
+                            <ul class="list">
+                                <li><i class="icon-check"></i> Cutting-Edge Medical Equipment</li>
+                                <li><i class="icon-check"></i> Comprehensive Urology Services</li>
+                                <li><i class="icon-check"></i>World-Class Infrastructure</li>
+                                <li><i class="icon-check"></i>Experienced & Specialized Medical Team</li>
+                                <li><i class="icon-check"></i>Advanced Diagnostic & AI-Assisted Monitoring</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-8">
+                            <ul class="list">
+                            <li><i class="icon-check"></i>Advanced Minimally Invasive Procedures.</li>
+                            <li><i class="icon-check"></i> State-of-the-Art Diagnostic Facilities.</li>
+                            <li><i class="icon-check"></i>Specialized Treatment for Complex Urological Conditions.</li>
+                            <li><i class="icon-check"></i>Multidisciplinary Expert Team.</li>
+                            <li><i class="icon-check"></i> Personalized & Holistic Patient Care.</li>
+                        </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="space100"></div>
+
+        <!-- INFO CONTENT -->
+        <div class="info-content2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3>Your Health is our Priority</h3>
+                        <div class="space10"></div>
+                        <!-- <p>We communicate honestly. No hidden fees, no surprises, no upsells! Only honest work and trustworthy staff.</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SERVICES -->
+        <section id="services" class="services bg-light">
+            <div class="container">
+
+                <div class="about-inline text-center">
+                    <p>- SERVICES -</p>
+                    <h3>Our Medical Services</h3>
+                </div>
+
+                <div class="services-s5 row">
+                    <div class="col-md-3">
+                        <div class="service-content">
+                            <i class="ilmosys-astronaut"></i>
+                            <h4>Scarless Surgeries</h4>
+                            <p>Advanced minimally invasive procedures designed to treat urological conditions without visible scars, ensuring faster healing and improved patient comfort.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service-content">
+                            <i class="ilmosys-brain-3"></i>
+                            <h4>Kidney Stone Treatment </h4>
+                            <p>Non-invasive techniques to break and remove kidney stones, ensuring quick recovery and minimal discomfort</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service-content">
+                            <i class="ilmosys-virus-2"></i>
+                            <h4>Prostate Care</h4>
+                            <p>Minimally invasive treatments for prostate conditions, including enlarged prostate (BPH) and other urological issues, ensuring effective relief and quick recovery.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="service-content">
+                            <i class="ilmosys-first-aid"></i>
+                            <h4>Endoscopic Procedures</h4>
+                            <p>Minimally invasive techniques using endoscopy to diagnose and treat urinary tract conditions, ensuring precision, faster recovery, and reduced discomfort.</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="col-md-3">
+                        <div class="space50"></div>
+                        <div class="service-content">
+                            <i class="ilmosys-medicine-2"></i>
+                            <h4>Male Fertility & Sexual Health</h4>
+                            <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="space50"></div>
+                        <div class="service-content">
+                            <i class="ilmosys-hospital-2"></i>
+                            <h4>Urinary Tract Infections (UTIs) Treatment</h4>
+                            <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="space50"></div>
+                        <div class="service-content">
+                            <i class="ilmosys-brain-3"></i>
+                            <h4>Bladder Health</h4>
+                            <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="space50"></div>
+                        <div class="service-content">
+                            <i class="ilmosys-heart"></i>
+                            <h4>Cancer Screening & Treatment</h4>
+                            <p>Lorem ipsum dolor sit amet elit convallis neque convallis est non turpis nisl ac justo rutrum sollic itudin urna interdum.</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- TESTIMONIALS -->
+        <div id="reviews">
+
+            <div class="container">
+                <div class="about-inline text-center">
+                    <p>- REVIEWS -</p>
+                    <h3>Read what our past patients said <br> Highend Urology</h3>
+                </div>
+
+                <!-- TESTIMONIALS -->
+                <div class="testimonials-white">
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <div class="quote2">
+                                <div>
+                                    <i class="icon2-bubble"></i>
+                                    <p>"Highend Urology provided exceptional care with professionalism and compassion. The doctors were attentive, and my treatment was smooth and effective. I highly recommend them!"</p>
+                                    <span class="author">Mark Dave </span>
+                                </div>
+
+                                <div>
+                                    <i class="icon2-bubble"></i>
+                                    <p>The team at Highend Urology is outstanding! From diagnosis to treatment, they made me feel comfortable and well cared for. Truly top-notch service.</p>
+                                    <span class="author">John Doe</span>
+                                </div>
+
+                                <div>
+                                    <i class="icon2-bubble"></i>
+                                    <p>"Highend Urology exceeded my expectations. The doctors were knowledgeable, and the care I received was exceptional. I’m grateful for their expertise!"</p>
+                                    <span class="author">Jackina Doe</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space100"></div>
+            </div>
+        </div>
+        <!-- TESTIMONIALS -->
+
+
+        <!-- PARALLAX -->
+
+        <!-- <section class="parallax-content parallax1 text-center" data-stellar-background-ratio="0.4">
+            <div class="overlay"></div>
+        <section class="parallax-content parallax1 text-center" data-stellar-background-ratio="0.4">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <h4>Over 300+ monthly visit to Highend Urology.</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <a href="#" class="btn btn-lg btn-primary pull-left">Learn More <i class="icon-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+        <!-- PARALLAX -->
+        <section class="text-center">
+
+
+            <!-- ELEMENTS - CALL TO ACTION -->
+            <!--<div class="cta-wrap">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h1>Hurry up! and get <br> <u>Free</u> treatment for <span> first 50 person</span></h1>
+                        <p>Limited time offer for this month. No credit card required.</p>
+                        <a href="#home" class="page-scroll btn btn-primary">Make an Appointment</a>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+
+        <!-- GOOGLE MAP -->
+        <div class="google-map">
+            <div class="container-fluid no-padding">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.204198747549!2d3.3523916!3d6.4958116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8d51d5fbc4cb%3A0x8397d867fb21b20b!2sHighendurology%20Nigeria%20Limited!5e0!3m2!1sen!2sng!4v1739462840904!5m2!1sen!2sng" width=100% height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <!-- CONTACT INFO -->
+
+        <div id="stats2" class="bg-primary py-5">
+            <div class="container">
+                <div class="row justify-content-center text-center">
+                    <div class="col-md-4 col-sm-6">
+                        <div class="stats2-info">
+                            <i class="ilmosys-phone"></i>
+                            <p class="mb-*">Social</p>
+                            <div class="container" style="max-width: 200px;">
+                                <div class="row text-center justify-content-center" style="max-width: 200px; color: #fff;">
+                                    <div class="col-md-2 col-sm-4" style="max-width: 134px;">
+                                        <a href="#" class="fa fa-facebook" style="color: #fff;"></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4" style="max-width: 134px;">
+                                        <a href="#" class="fa fa-twitter" style="color: #fff;"></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4" style="max-width: 134px;">
+                                        <a href="#" class="fa fa-dribbble" style="color: #fff;"></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4" style="max-width: 134px;">
+                                        <a href="#" class="fa fa-google-plus" style="color: #fff;"></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4" style="max-width: 134px;">
+                                        <a href="#" class="fa fa-linkedin" style="color: #fff;"></a>
+                                    </div>
+                                    <div class="col-md-2 col-sm-4" style="max-width: 134px;">
+                                        <a href="https://www.instagram.com/highendurology/?hl=en" class="fa fa-instagram" style="color: #fff;"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="stats2-info">
+                            <i class="ilmosys-clock"></i>
+                            <p>Working Hours</p>
+                            <h2>24/7</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="stats2-info">
+                            <i class="ilmosys-hospital-2"></i>
+                            <p>Location</p>
+                            <h2>Lagos</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact-info">
+            <div class="container text-center">
+                <div class="row justify-content-center align-items-center text-center">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="c-info">
+                            <h5><b>Call Us</b></h5>
+                            <p>+234 807 491 7083</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="c-info">
+                            <h5><b>Email</b></h5>
+                            <p><a href="">info@highendurology.com</a></p>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="c-info">
+                            <h5><b>Address</b></h5>
+                            <p>76 Femi Ayantuga Street, Off Adelabu St, Surulere, Lagos 101232, Lagos</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-3 col-sm-6 " style="margin-top: 60px;" >
+                        <a href="https://highendurology.medama.ng/index.html" type="submit" class="btn btn-primary btn-sm w-100" id="submit_btn">Staff Login</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        
+
+        <!-- FOOTER -->
+        <!-- <footer class="footer2" id="footer2">
+            <div class="container">
+
+                 <div class="row">
+
+                    <div class="col-md-3 footerP">
+                        <h5>RELATED LINKS</h5><ul>
+                        <li>
+                            <a href="#">
+                                <p>About Us</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Why Buy With Us?</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Our Team</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Contact Us</p>
+                            </a>
+                        </li></ul>
+                    </div>
+
+                    <div class="col-md-3 footerP pull-right">
+                        <h5>About Us</h5>
+                        <p>At Highend Urology, we specialize in advanced urological care, combining expertise with state-of-the-art technology to ensure the best outcomes for our patients. Your health is our mission—trust us for excellence in urological care.</p>
+                        <h5>Social</h5>
+                        <div class="footer-social">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-dribbble"></a>
+                            <a href="#" class="fa fa-google-plus"></a>
+                             <a href="#" class="fa fa-linkedin"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer> -->
+
+        <!-- COPYRIGHT -->
+        <div class="footer-copy">
+            <div class="container">
+                &copy; 2025. Powered by Next-IT Servces.
+            </div>
+        </div>
+    </div>
+
+
+    <!-- JAVASCRIPT =============================-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/vendors/slick/slick.min.js"></script>
+    <script src="js/vendors/jquery.easing.min.js"></script>
+    <script src="js/vendors/stellar.js"></script>
+    <script src="js/vendors/isotope/isotope.pkgd.js"></script>
+    <script src="js/vendors/swipebox/js/jquery.swipebox.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/vendors/mc/jquery.ketchup.all.min.js"></script>
+    <script src="js/vendors/mc/main.js"></script>
+    <script src="js/vendors/contact.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="js/vendors/gmap.js"></script>
+
+</body>
+
+</html>
